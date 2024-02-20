@@ -1,0 +1,158 @@
+body{
+    background: #f4f2ec url(img/fundo.png) repeat-x;
+    font: 12px "Lucinda Grande", "Lucinda Sans Unicode", Arial, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    height: 80px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: start;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li{
+    padding: 0 20px 10px 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #af670a;
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+
+header>a{
+    background: url(img/logo.png) no-repeat;
+    text-indent: -9999px;
+    width: 248px;
+    height: 21px;
+    margin-bottom: 10px;
+}
+
+nav ul li a:hover{
+    border-bottom: 1px solid rgb(66, 66, 66);
+    color: rgb(0, 83, 0);
+}
+
+#corpo{
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    width: 60%;
+    /* background: blue; */
+}
+
+aside{
+    width: 35%;
+    background: rgb(206, 206, 206);
+}
+
+section img{
+    width: 100%;
+}
+
+section#informacoes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    width: 40%;
+    padding-left: 30px;
+    margin: 20px 0 20px 0;
+}
+
+article h1{
+    color: rgb(0, 83, 0);
+    font-size: 1.6em;
+}
+
+article iframe{
+    width: 90%;
+    height: 200px;
+}
+
+ul#exposicoes{
+    margin-left: 40px;
+}
+
+#exposicoes li{
+    padding-bottom: 5px;
+}
+
+#exposicoes li a{
+    color: #af670a;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+#exposicoes li a:hover{
+    color: rgb(0, 83, 0);
+}
+
+article p{
+    font-size: 1.3em;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+article a{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #af670a;
+}
+
+article a:hover{
+    color: rgb(0, 83, 0);
+}
+
+section#formulario{
+    margin-top: 10px;
+    background: #cdc8b1;
+    padding: 20px 5px 0 5px;
+}
+
+#formulario fieldset{
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#botao{
+    width: 80%;
+    
+}
+
+legend{
+    font-size: 1.5em;
+    text-indent: 10px;
+    color: #86521a;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+label{
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
