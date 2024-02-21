@@ -1,6 +1,6 @@
 body{
     background: #f4f2ec url(img/fundo.png) repeat-x;
-    font: 12px "Lucinda Grande", "Lucinda Sans Unicode", Arial, sans-serif;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
 }
 *{
     margin: 0;
@@ -121,7 +121,7 @@ article a{
     color: #af670a;
 }
 
-article a:hover{
+article a:hover, footer p a:hover{
     color: rgb(0, 83, 0);
 }
 
@@ -140,7 +140,15 @@ section#formulario{
 
 #botao{
     width: 80%;
-    
+    padding: 10px;
+    font-size: 1.4em;
+    margin-left: 10px;
+    background: #9b9271;
+    border: transparent;
+}
+
+#botao:hover{
+    cursor: pointer;
 }
 
 legend{
@@ -148,11 +156,64 @@ legend{
     text-indent: 10px;
     color: #86521a;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: start;
 }
 
 label{
     font-size: 1.3em;
     margin-bottom: 10px;
     margin-left: 20px;
+}
+
+input#quantidade{
+    width: 10%;
+}
+
+#galeria-de-fotos{
+    margin-left: 20px;
+    color: #86521a;
+
+}
+
+#foto{
+    background: url(img/fundo-foto.png) center center no-repeat;
+    background-size: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 150px;
+}
+
+#foto a{
+    width: 50%
+}
+
+#fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background: url(img/fundo-rodape.png) top center no-repeat;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p a{
+    padding: 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #af670a;
+}
+
+footer p{
+    font-size: 1.2em;
+    padding-bottom: 20px;
 }
